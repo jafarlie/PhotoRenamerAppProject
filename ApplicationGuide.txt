@@ -1,0 +1,32 @@
+Application Guide
+Attention: Before running application, make sure you do not have file called logger.csv or Hashmap.ser. If you have file with those names, please delete them.
+
+First Step: Choose Directory. Each time you choose a directory, our application will show all pictures in that directory.
+
+Second Step: Click a picture. Please click only one picture.
+
+Third Step: 
+
+1) Add Tag: You can write down the tag you want to add.(One tag each time) 
+Attention:If you do not write down anything, it will add white space as tag. You can add same tag many times in your file name, but it will only show one tag in you name history and view tags.  
+
+2)Delete Tag: Show tags you can delete first(Each tag starts with @). Then, you can write down tag you want to delete.
+Attention: When you write down the tag you want to delete, please do not include @. If you write down tag that does not exit, our application will ignore your input.
+
+3)View Tags: View all Tags you have in this picture(Each tag starts with @).
+
+4)Choose Old Name: Show all tags exist in name’s history first and then show all tags exist in name now. You can add any tag in name’s history back to name. 
+Attention: It will ignore any tags that is not from name’s history.
+
+5)NameHistory: Show all tags that exist in Name’s history.
+
+6)Exit: Show all changes you made through application. The left side is what picture’s name is changed from. The middle side is what picture’s name after change. The right side is the time you makes change.
+Attention: Please click Exit if you want to save all changes you made.
+
+To see all changes you ever made, please open logger.csv in your Desktop.
+
+We use Strategy Design Pattern in our Strategy interface to help us deal with changing name. We use Singleton in our TreeMap to help us keep our hashmap.
+
+Enjoy!!!   
+
+ 
